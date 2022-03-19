@@ -24,8 +24,8 @@ FizzBuzz
 let fizzBuzzStr = "";
 
 for(
-    let counter = 0;
-    counter < 100;
+    let counter = 1;
+    counter <= 100;
     counter++ // equivalent to counter = counter + 1
     )
 {

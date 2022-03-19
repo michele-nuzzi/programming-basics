@@ -1,6 +1,6 @@
 /*
 expected output
-node for_play.js
+node forPyramid.js
 
 #
 ##

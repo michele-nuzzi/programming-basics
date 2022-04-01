@@ -16,7 +16,7 @@ example:
 function recoursivePrintChars( str )
 {
     if( str === "" ) return;
-
+    
     console.log( str[0] );
     
     recoursivePrintChars( str.slice( 1 ) )

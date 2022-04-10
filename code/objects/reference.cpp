@@ -1,19 +1,15 @@
 #include <iostream>
 
-void setTo42( unsigned int & n );
-
 int main()
 {
-    unsigned int aPositiveInt = 2;
+    unsigned int a = 2;
+    std::cout << a << '\n' << &a << '\n'; // console.log( a , '\n', &a, '\n' );
 
-    std::cout << aPositiveInt << '\n' << &aPositiveInt << '\n';
+    unsigned int b = a;
+    std::cout << b << '\n' << &b << '\n';
 
-    setTo42( aPositiveInt );
-    
-    std::cout << aPositiveInt << '\n' << &aPositiveInt << '\n';
-}
-
-void setTo42( unsigned int & n )
-{
-    n = 42;
+    unsigned int & c = a;
+    std::cout << c << '\n' << &c << '\n';
+    c = 69;
+    std::cout << c << '\n' << a << '\n'<< b << '\n';
 }

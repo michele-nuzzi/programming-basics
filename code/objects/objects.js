@@ -1,6 +1,4 @@
 
-// other languages equivalent are maps
-
 const myObj = {
     property1: 1,
     property2: "string",
